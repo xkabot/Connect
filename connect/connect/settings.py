@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get("DJANGO_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://connect-r98x.ondender.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["https://connect-r98x.ondender.com"]
 
 
 # Application definition
