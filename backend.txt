@@ -1,4 +1,0 @@
-backend deep dive 
-
-- Django 
-    We need to create a messages queue for adding messages to notifications based on posts
