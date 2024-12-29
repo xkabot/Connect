@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get("DJANGO_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://connect-n8a6.onrender.com, 127.0.0.1"]
+ALLOWED_HOSTS = ["connect-n8a6.onrender.com, 127.0.0.1"]
 
 
 # Application definition
