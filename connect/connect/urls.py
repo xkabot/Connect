@@ -21,4 +21,5 @@ from connectApp import views
 urlpatterns = [
     path('hello/', views.hello_world, name='hello_world'),
     path('', views.hello_world, name='hello_world'),
+    path('second/', views.second_page, name="something"),
 ]
