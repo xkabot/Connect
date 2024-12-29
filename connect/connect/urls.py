@@ -20,5 +20,5 @@ from connectApp import views
 
 urlpatterns = [
     path('hello/', views.hello_world, name='hello_world'),
-    path('admin/', admin.site.urls),
+    path('', views.hello_world, name='hello_world'),
 ]
